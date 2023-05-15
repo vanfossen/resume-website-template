@@ -6,6 +6,10 @@ I wanted a simple single-page website to host my resume and professional socials
 
 - Some elements and color designs inspired from [Pico.css](https://picocss.com/)
 
+## Live Demo
+
+[Hosted on Github Pages](https://vanfossen.github.io/resume-website-template/)
+
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
