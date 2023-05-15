@@ -21,6 +21,8 @@
   --color-svg-logo: #73828c;
 
   --color-svg-logo-hover: #1b2832;
+
+  --color-footer: #73828c;
 }
 
 /* body */
@@ -53,6 +55,8 @@ body.darkMode {
   --color-svg-logo: #73828c;
 
   --color-svg-logo-hover: #edf0f3;
+
+  --color-footer: #73828c;
 }
 
 /* nav */
@@ -185,6 +189,26 @@ img {
 .theme > a > svg:hover {
   fill: var(--color-svg-logo-hover);
   cursor: pointer;
+}
+
+footer {
+  padding-bottom: 1%;
+}
+
+footer > p {
+  font-family: var(--font-family);
+  color: var(--color-footer);
+  font-weight: bolder;
+}
+
+footer > p > a {
+  font-family: var(--font-family);
+  color: var(--color-footer);
+  transition: 0.5s;
+}
+
+footer > p > a:hover {
+  color: var(--color-nav-hover);
 }
 
 /* responsiveness for mobile */
